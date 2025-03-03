@@ -109,6 +109,11 @@ please install extra requirements by `pip install "logai[dev]"`.
 > ```shell
 > python -m nltk.downloader punkt
 > ```
+> Make sure you move the nltk_data in to the virtual environment.
+> ```shell
+> mv ~/nltk_share .venv/share/nltk_data
+> ```
+
 
 ## Getting Started
 
