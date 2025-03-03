@@ -134,6 +134,9 @@ source venv/bin/activate # activate virtual env
 pip install ".[dev]"
 pip install ".[gui]"
 
+# Install datasets
+pip install datasets
+
 # Start LogAI service
 export PYTHONPATH='.'  # make sure to add current root to PYTHONPATH
 python3 gui/application.py # Run local plotly dash server.
